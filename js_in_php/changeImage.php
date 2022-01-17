@@ -10,7 +10,7 @@
 ekran Buton-Resim-Buton seklinde goruntulenecek,soldaki buton tiklaninca resim olarak bir onceki resim, sagdaki buton tiklaninca 
 bir sonraki resim goruntulenecktir ve bu yapi donguselse calisacak(1.resim goruntulenirken sola basilirsa 5.resim, 
 5.resim goruntulenirken saga basilirsa 1. resim goruntulenecektir) -->
-<body name="body">
+<body >
     <script type="text/javascript">
         function changeLeft(id)
         {
