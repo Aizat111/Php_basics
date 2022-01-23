@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+<!-- Hocanin derste gosterdigi ornek-->
     </head>
     <body>
     <script type="text/javascript">
