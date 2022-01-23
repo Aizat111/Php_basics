@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+<!-- Hocanin derste gosterdigi ornek-->
 <html>
     <head>
         <title>JS 1.ornek</title>
