@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<!-- Icinde bulunan form ile kendi kendini cagiran session4.php isimli tek bir php  dosyasi siniftaki ogrencilerin username ve passwordlarini
+session yapisi yardimi ile  tutarak her cagirildiginda daha once eklenen tum userleri  de en alt kisima listeleyerek  sunmaktadir-->
 <body>
     <?php
     session_start();
