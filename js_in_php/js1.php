@@ -22,7 +22,7 @@
     <form name="test1">
     Adi <input type="text" name="adi" value="" onChange="Goster(this.value)" onFocus="Aktif(this)" onBlur="Pasif(this)" >
 
-    Soyadi <input type="text" name="soyadi" value="" onKeyPress="Goster(document.test1s.soyadi.value">
+    Soyadi <input type="text" name="soyadi" value="" onKeyPress="Goster(document.test1.soyadi.value)">
     Bilgi <input type="text" name="bilgi" value="">
     </form>
     </body>

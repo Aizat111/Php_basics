@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form  name="TableForm" method= "get" action="CreationTab.php">
+    <form  name="TableForm" method= "get" action="CreateTable.php">
         
         <!-- choose your table's color-->
         Red <input id="red" name="color" type="radio" value="red">
