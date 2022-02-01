@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- inputlar kullanilarak girilen ogrencilerin ad ve soyadlarini html ve js kullanarak asagida bir DIV icerisinde listeleyiniz-->
+<body>
+    <script type="text/javascript">
+        function Goster(name,surname)
+        {
+            alert(name);
+            document.getElementsByName("list").innerHTML=document.getElementsByName("list").innerHTML+"\n"+name+surname;
+            console.log( document.getElementsByName("list").innerHTML);
+        }
+    </script>
+    <form name="test">
+        Adiniz: <input type="text" name="name1"> <br><br>
+        Soyadiniz: <input type="text" name="surname"><br><br>
+        <input type="button"  value="OK" onClick="Goster(document.test.name1.value,document.test.surname.value)">
+    </form>
+    <div >
+        <p name="list">
+            
+        </p>
+    </div>
+</body>
+</html>
